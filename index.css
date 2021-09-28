@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+p{
+    text-align: center;
+    
+}
+body{
+  font-family: 'Rampart One', cursive;
+}
+
+
+
+.list{
+  text-align: left;
+  margin: 5%;
+  padding-top: 1px;
+  padding-bottom: 5px;
+}
+
+.navbar {
+   
+  background-color:brown;
+  position: fixed;
+  font-weight: 600;
+  width: 100%;
+  float: right;
+ 
+}
+
+  ul{
+    text-decoration: none;
+    list-style: none;
+  } 
+
+
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: white;
+  }
+  
+  img {
+    width: 100%;
+    image-rendering: -webkit-optimize-contrast;
+    width: 2000px;
+  
+    height: 150px;
+    margin-bottom: -60px;
+    align-items: center;
+    object-fit: cover;
+    padding-top: 0px;
+    padding-bottom: 0px
+    
+  }
+
+ 
+  .mine{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1030
+    
+  }
+  .avater{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    object-fit: cover;
+    padding-top: 2px;
+    padding-bottom: 1px;
+  
+    
+  }
+  .list h5{
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(0,0,0,.54);
+    margin: 0 0 10px;
+  }
+  .list h4{
+    font-size: 1.75em;
+    font-weight: 300;
+    color: #000;
+    margin: 20px 0 10px;
+  }
+.list p{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.centered {
+  position: absolute;
+  top: 20%;
+  font-size: 1.5em;
+  color: black;
+  font-weight: 600;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Rampart One', cursive;
+}
+.article-style p{
+  border: 1px solid white;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  align-content: center;
+}
+.skills img{
+ display: block;
+
+ image-rendering: -webkit-optimize-contrast;
+ margin-top: 10px;
+ 
+
+ margin-right: 20px;
+ 
+
+
+}
+body {
+  min-height: 75rem;
+}
+.services-area {
+	background: #F3F4F3;
+}
+
+.services-icon i {
+	font-size: 35px;
+	color: #008080;
+}
+
+.single-services:hover i{
+	color: #212121;
+}
+
+.services-content h3 {
+	line-height: 1.9;
+	text-transform: uppercase;
+}
+
+.services-icon {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	padding: 20px;
+}
+
+.single-services {
+	padding: 40px 20px;
+	margin: 0 15px 15px;
+	position: relative;
+	overflow: hidden;
+}
+
+  
+  
