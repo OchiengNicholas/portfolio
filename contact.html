@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas_Video Editor</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="icon" href="img/18.jpg">
+</head>
+<body>
+
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-brown mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Welcome</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active text-warning aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="design.html">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="contact.html">Contact</a>
+          </li>
+          
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  
+    
+    <!--contact area starts-->
+  <div class="contact-area section-padding" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+            <p class="line-one"></p>
+            <h2 style="text-align: center; font-weight: 400;">Contact</h2>
+            <p class="line-one"></p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.2s">
+            <i class="fab fa-github-square"></i>
+            <h2>Github</h2>
+            <p><a style="color: brown;" target="_blank" href="https://github.com/OchiengNicholas">Github</a></p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.4s">
+            <i class="fab fa-linkedin"></i>
+            <h2>Mobile/WhatsApp</h2>
+            <p><a style="color: brown;" target="_blank">0792 149 307</a> </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.6s">
+            <i class="fa fa-envelope-o"></i>
+            <h2>Email</h2>
+            <p>ochiengnicholas087@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <form id="contact-form" method="POST" action="https://formspree.io/f/myylvgjz" class="wow fadeInDown" data-wow-delay="1s">
+            <div class="messages"></div>
+            <div class="controls">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your full name *" required="required" data-error="Fullname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input id="form_email" type="email" name="_replyto" class="form-control" placeholder="Enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Your Message *" rows="4" required="required" data-error="Leave a message for me"></textarea>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <input class="btn btn btn-primary btn-send" type="submit" value="Send message"></input>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>  
+    
+      <footer class="text-muted py-5">
+        <div class="container">
+          <p class="float-end mb-1">
+            <a href="">Back to top</a>
+          </p>
+          
+        </div>
+      </footer>
+    <script src="js/bootstrap.js">
+
+    </script>
+</body>
+</html>
